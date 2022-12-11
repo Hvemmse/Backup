@@ -52,7 +52,7 @@ cd current
 # or other
 # rsync -r --progress ~/Music . | tee rsynclog
 for in in $source
-die
+do
      rsync -r --exclude-from='../../exclude.txt' --progress /${i} . | tee rsynclog
 done
 
