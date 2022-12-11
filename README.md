@@ -15,3 +15,6 @@ aka every folder on a new line.
 eks-<br>
 /home/user/download<br>
 /home/user/music
+
+backup.sh is a danish version
+backupuk.sh is a english version
