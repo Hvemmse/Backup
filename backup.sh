@@ -11,12 +11,6 @@ sti=$(cat /tmp/path)
 # hvis rsync ikke kan bruges installer den.
 if ! [[ -x $sti ]]
 then
-  # if Arch do this
-  #sudo pacman -Sy rsync
-  # if ubuntu,Deian do this
-  # sudo apt install rsync -y
-  # if alpine linux do this
-  # sudo apk add rsync
 
 # Find os
 case "$OSTYPE" in
@@ -29,7 +23,7 @@ fi
 
 currentdir=$(pwd)
 #define source
-source="/boot /etc /home"
+source="/home"
 echo Source folders are $source
 echo Target folder is current dir $currentdir
 #define exclude

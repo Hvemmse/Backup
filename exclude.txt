@@ -1,3 +1,4 @@
 /home/frank/Hentet
 /home/frank/.config
 /home/frank/.cache
+/homr/frank/.icons
