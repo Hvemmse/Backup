@@ -2,19 +2,20 @@
 Backup Script written in bash using rsync
 
 
-## Writen by Frank Simens backup.sh Works in Arch and Ubuntu
+## Written by Frank Simens - backup.sh works in Arch and Ubuntu
 # Installation
-use 
+Use 
 <code>git clone https://github.com/Hvemmse/Backup</code>
 
-# files explayned
+# Files Explained
 
-exclude.txt is a textfile with the folder excludet
+exclude.txt is a text file with the folders excluded.
 
-aka every folder on a new line. 
-eks-<br>
-/home/user/download<br>
+Each folder should be listed on a new line. 
+Example:
+/home/user/download
 /home/user/music
 
-backup.sh is a danish version
-backupuk.sh is a english version
+backup.sh is the Danish version.
+backupuk.sh is the English version.
+
